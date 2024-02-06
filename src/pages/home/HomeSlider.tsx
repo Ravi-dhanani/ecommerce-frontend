@@ -29,7 +29,7 @@ export default function HomeSlider() {
         {images?.map((item: string, index: number) => (
           <SwiperSlide key={index}>
             <div className="h-[550px] w-full">
-              <img src={item} className="object-center" />
+              <img src={item} className="object-contain" />
             </div>
           </SwiperSlide>
         ))}
