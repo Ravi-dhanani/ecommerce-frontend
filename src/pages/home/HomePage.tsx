@@ -1,5 +1,11 @@
+"use client";
 import React from "react";
+import HomeSlider from "./HomeSlider";
 
 export default function HomePage() {
-  return <div>jhjdjh</div>;
+  return (
+    <div>
+      <HomeSlider />
+    </div>
+  );
 }
